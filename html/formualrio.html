@@ -7,9 +7,33 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <header class="bg-success text-white text-center py-3">
-        <h1>Solicitação de Empréstimo</h1>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="container">
+            <a href="index.html" class="navbar-brand" href="#">
+                <img src="img/pallet_img.png" width="30" height="30" class="d-inline-block align-top" alt="Banco Howrse width="30" height="30" class="d-inline-block align-top" alt="Banco Howrse">
+                Banco Pallet
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="dashboard.html">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cadastro.html">Cadastrar Cliente</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cliente.html">Cliente</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <main class="container mt-5">
         <section id="emprestimo-form">
@@ -50,15 +74,18 @@
                     <input type="number" class="form-control" id="renda" name="renda" required>
                 </div>
 
-                <a href="index.html" class="btn btn-success btn-block">
+                <a href="cadastro-sucesso.html" class="btn btn-success btn-block">
                     Solicitar Empréstimo
                 </a>
             </form>
         </section>
     </main>
 
-    <footer class="bg-success text-white text-center py-3 mt-5">
-        <p>&copy; 2024 Serviços Financeiros</p>
+    <footer class="py-4 bg-dark text-white">
+        <div class="container text-center">
+            <p>&copy; 2024 Banco Pallet. Todos os direitos reservados.</p>
+        </div>
     </footer>
+
 </body>
 </html>
